@@ -18,14 +18,18 @@ class CardGame:
 
 
   def check_for_ace(self, card):
+  # use comparison operator instead of an assigment operator
     if card.value = 1:
       return True
+  # missing colon from else statement
     else
       return False
    
-
+  # typo in declaring the name of the method- should be def instead of dif
+  # missing comma between card1 and card2
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
+    # the statement returns card instead of card1
     return card
   else:
     return card2
@@ -33,9 +37,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
+  # the total variable is never initialized
   total
   for card in cards:
     total += card.value
+  # indentation of the return statement is not in the correct place
     return "You have a total of" + total
   
 ```
