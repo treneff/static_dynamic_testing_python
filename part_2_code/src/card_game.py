@@ -8,14 +8,14 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card["value"] ==  1:
+    if card.value ==  1:
       return True
     else:
       return False
 
 
   def highest_card(self, card1, card2):
-    if card1["value"] > card2["value"]:
+    if card1.value > card2.value:
       return card1
     else:
       return card2
@@ -25,5 +25,5 @@ class CardGame:
   def cards_total(self, cards):
     total = 0
     for card in cards:
-      total += card["value"]
+      total += card.value
     return total

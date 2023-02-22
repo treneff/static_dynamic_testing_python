@@ -6,15 +6,8 @@ from src.card_game import *
 class TestCardGame(unittest.TestCase):
     def setUp(self):
         
-        self.card1 = {
-            "suit":"hearts",
-            "value":10
-        }
-        self.card2 = {
-            "suit":"spades",
-            "value":5
-        }
-        
+        self.card1 = Card("hearts",10)
+        self.card2 = Card("spades",5)
         self.card_game = CardGame()
         
         
